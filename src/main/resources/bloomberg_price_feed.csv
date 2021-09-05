@@ -1,0 +1,4 @@
+﻿StockSymbol,Vendor,Price,Currency
+P1A,Bloomberg,11,USD
+P1B,Bloomberg,42,INR
+P1C,Bloomberg,300,EURO
