@@ -20,6 +20,7 @@ Below is the sample data
 
 **Bloomberg price data**
 **StockSymbol,Vendor,Price,Currency**
+
 P1A,Bloomberg,11,USD
 
 P1B,Reuters,42,INR
@@ -28,6 +29,7 @@ P1C,Bloomberg,300,EURO
 
 **IDC price data**
 **StockSymbol,Vendor,Price,Currency**
+
 P1A,IDC,44,USD
 
 P1B,IDC,77,INR
