@@ -12,34 +12,39 @@ For example, in our case
 
 Bloomberg, IDC have header format as - 
 **"StockSymbol", "Vendor", "Price", "Currency"**
+
 Reuters header format is - 
 **"Vendor", "Price", "Currency", "StockTicker"**
 
 Below is the sample data
 
 **Bloomberg price data**
-
 **StockSymbol,Vendor,Price,Currency**
-
 P1A,Bloomberg,11,USD
+
 P1B,Reuters,42,INR
+
 P1C,Bloomberg,300,EURO
 
 **IDC price data**
-
 **StockSymbol,Vendor,Price,Currency**
-
 P1A,IDC,44,USD
+
 P1B,IDC,77,INR
+
 P1C,IDC,63,EURO
+
 
 **Reuters price data**
 
 **Vendor|Price|Currency|StockTicker**
 
 Reuters|889|USD|P1A
+
 Reuters|990|INR|P1B
+
 Reuters|89|EURO|P1C
+
 
 Now using Spring Batch we are loading these price feeds into our database after converting them 
 into common format during processing and enriching them with audit information.
